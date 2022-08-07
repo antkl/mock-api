@@ -1,0 +1,19 @@
+{
+  "Article": {
+    "title": {
+      "loremWords": { "minLength": 3, "maxLength": 8 }
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2022-02-24T00:00:00Z",
+        "max": "2022-07-01T23:59:59Z"
+      }
+    },
+    "excerpt": {
+      "loremWords": { "minLength": 15, "maxLength": 20 }
+    },
+    "content": {
+      "loremWords": { "minLength": 500, "maxLength": 700 }
+    }
+  }
+}
