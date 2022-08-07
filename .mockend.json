@@ -1,7 +1,7 @@
 {
   "Article": {
     "title": {
-      "loremWords": { "minLength": 3, "maxLength": 8 }
+      "loremWords": { "minLength": 20, "maxLength": 30 }
     },
     "createdAt": {
       "dateTime": {
@@ -10,10 +10,10 @@
       }
     },
     "excerpt": {
-      "loremWords": { "minLength": 15, "maxLength": 20 }
+      "loremWords": { "minLength": 200, "maxLength": 250 }
     },
     "content": {
-      "loremWords": { "minLength": 500, "maxLength": 700 }
+      "loremWords": { "minLength": 3000, "maxLength": 5000 }
     }
   }
 }
